@@ -6,6 +6,6 @@ export class Game {
     }
 
     get score() {
-      return -1;
+      return 0;
     }
 }
