@@ -1,11 +1,10 @@
 export class Game {
-    // private _score = 0;
+    private _score = 0;
     roll(pins: number) {
-        // this._score += pins;
-        // throw new Error('Method not implemented');
+        this._score += pins;
     }
 
     get score() {
-      return 0;
+      return this._score;
     }
 }
