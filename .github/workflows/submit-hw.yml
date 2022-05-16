@@ -1,4 +1,4 @@
-name: CI
+name: CI-submit-hw
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  main:
+  submit-hw:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
